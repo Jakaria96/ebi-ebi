@@ -1,0 +1,86 @@
+.container{
+    width: 1280px;
+    margin: auto;
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+h1{
+    text-align: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.173);
+    padding-bottom: 20px;
+}
+.product-code{
+    width:45%;
+}
+.product-menu{
+display:flex;
+align-items: center;
+justify-content: center;
+}
+.product-menu button{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: #36A76D;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+
+}
+.product-deta{
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+}
+.product-deta h2{
+    font-size: 56px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: rgb(54, 54, 54);
+
+}
+.product-deta p{
+    text-align: left;
+    font-size: 16px;
+    color: rgb(57, 55, 55);
+    margin-bottom: 10px;
+}
+.product-deta button{
+    width: 60%;
+    margin:20px auto;
+    padding:20px 40px;
+    background-color:#126f3f;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 10px;
+    transition: .3s;
+    border: 2px slid white;
+    border: 2px solid #126f3f;
+    cursor: pointer;
+}
+.product-deta button:hover{
+    background: white;
+    border: 2px solid #126f3f;
+    color: #126f3f;
+}
+
+.product-img{
+    width: 45%;
+
+}
+.product-img img{
+    width:90%;
+    margin: auto;
+    border-radius: 10px;
+    background-position:center;
+    
+}
+#shirt-text, #black-text, #cloudy-text{
+    align-content: center;
+}
